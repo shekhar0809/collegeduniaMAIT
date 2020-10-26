@@ -1,0 +1,96 @@
+<div class="wrapper" *ngFor="let card of cards">
+
+    <div class="image">
+        <img width="100%"  src="/assets/college_02.jpg" alt="img">    
+   
+        <span class="tags">
+            <span class="tag" *ngFor="let tag of card.tags" >  
+                {{ tag }}
+            </span>
+
+            <span class="ranking">
+                #{{card.ranking}}
+            </span>
+        </span>
+
+        <div class="promoted">
+            PROMOTED
+        </div>
+
+        <div class="yellow-rating">
+            <div class="number">
+                <span class="three">3.9</span>
+                <span class="five">/5</span>
+            </div>
+            <div class="good">
+                {{card.rating_remarks}}
+    
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    
+
+    <div class="data">
+        <div class="title">
+            <div class="college-name">
+                {{ card.college_name }}
+            </div>
+
+
+            <span class="disc">
+
+                <span class="original">
+                    &#x20B9;{{ card.original_fees }}
+                </span>
+                <span class="discount">
+                    {{ card.discount }}%
+                </span>
+            </span> 
+                
+        </div>
+
+        <div class="nearest">
+            <span class="place" *ngFor="let place of card.nearest_place" >  
+                {{ place }}
+            </span>
+            <span class="discountedfee">
+                &#x20B9;{{ card.discounted_fees }}
+            </span>
+        </div>
+        
+        <div class="match">
+            <span class="percent">
+                93% match:
+            </span>
+            <span class="famous"  >  
+                {{ card.famous_nearest_places }}
+            </span>
+            <span class="cycle">
+               {{ card.fees_cycle }}
+            </span>
+        </div>
+
+        
+      
+
+        <div class="cancellation">
+            <span class="offer">
+                <span class="textoffer">
+                    {{ card.offertext }}
+
+                </span>
+            </span>
+
+
+            <span class="amenityparent">
+                <span class="amenety" *ngFor="let amenety of card.amenties" >  
+                    {{ amenety }}
+                </span>
+            </span>
+        </div>
+    </div>
+</div>

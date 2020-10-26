@@ -1,0 +1,192 @@
+.wrapper {
+
+    position: relative;
+    width: 40%;
+    display: inline-block;
+
+    border: 1px solid #DED6BD;
+    margin: 3%;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 4px;
+
+
+}
+
+
+
+.college-name .star {
+    display: inline-block;
+}
+
+.percent {
+    color: teal;
+}
+
+.amenety {
+    
+    color: teal;
+}
+
+.amenityparent {
+    display: inline-block;
+    position: relative;
+    right: 0;
+    left: auto;
+    margin-left: auto;
+}
+
+.textoffer {
+    
+    opacity: 100%;
+
+}
+
+.data {
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding: 20px;
+}
+
+.offer {
+    display: inline-block;
+    position: relative;
+    background-color: teal;
+    opacity: 0.5;
+    left: -20px;
+    padding: 5px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cancellation {
+
+    display: flex;
+justify-content: space-between;
+}
+
+image {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+img {
+    filter: grayscale(50%);
+    filter: brightness(25%);
+}
+
+
+
+.tag {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 5px 10px;
+    position: relative;
+    margin-left: 7px;
+    bottom: 40px;
+    
+}
+
+.promoted {
+    position: absolute;
+    width: fit-content;
+    font-size: 1em;
+    padding: 7px;
+    padding-left: 30px;
+    background-color: #4DAFF3;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 18% 50%);
+    left: 81%;
+    bottom: 96%;
+    color: white;
+
+}
+
+.yellow-rating {
+
+    position: absolute;
+    width: fit-content;
+    padding: 15px;
+    background-color: #F7BF12;
+    left: 82%;
+    bottom: 70%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.three {
+    font-size: 1.2em;
+}
+
+.five {
+    font-size: 1em;
+}
+
+.nearest .match {
+    margin-bottom: 4px;
+}
+
+.ranking {
+    // display: flex;
+    color: white;
+    position: relative;
+    right: 0;
+    left: 150px;
+    width: fit-content;
+    margin-left: auto;
+    bottom: 40px;
+
+}
+
+.original {
+
+}
+
+.disc {
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    
+    right: 0;
+    margin-left: 45%;
+
+}
+
+.discountedfee {
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    
+    right: 0;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 16%;
+
+}
+
+.cycle {
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    margin-left: 8%;
+
+}
+
+
+.discount {
+
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 20% 100%, 0 50%);
+    background-color: red;
+    color: white;
+    padding: 2px;
+    padding-left: 5px;
+}
